@@ -67,6 +67,8 @@ Note:
 
 ]]
 
+assert(terra, 'terra not loaded')
+
 if not ... then require'terra.binder_test'; return end
 
 setfenv(1, require'terra.low'.module())
